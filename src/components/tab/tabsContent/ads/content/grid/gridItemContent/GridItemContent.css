@@ -1,0 +1,44 @@
+.GridItemContent{
+    margin: 10px 30px;
+}
+
+.gridItemContentTitle{
+    color: white;
+    font-size: 2.8rem;
+    font-family: IRSina, serif;
+    padding: 40px 0 10px 0;
+}
+
+.gridItemContentLocation{
+    color: white;
+    font-size: 1.4rem;
+    font-family: IRSina, serif;
+    padding: 0 0 40px 0;
+}
+
+.gridItemContentFeatures{
+    color: white;
+    font-size: 2.2rem;
+    padding: 3px 0;
+    font-family: none, serif;
+}
+
+.gridItemContentSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridItemContentImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gridItemContentImage {
+    border-radius: 15px;
+    padding: 8px 12px 25px 10px;
+    width: 50%;
+    height: 350px;
+    background: #0dcc0d;
+}
+

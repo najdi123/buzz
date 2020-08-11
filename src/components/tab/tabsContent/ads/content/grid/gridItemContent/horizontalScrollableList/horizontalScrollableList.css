@@ -1,0 +1,42 @@
+.horizontalScrollableList{
+    display: flex;
+}
+.imgHolder {
+    width: 300px;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.imgHolder::-webkit-scrollbar {
+    display: none;
+}
+
+.imgHolder img {
+    width: 100px;
+}
+
+.arrowLeft img {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.arrowLeft {
+    background-color: transparent;
+    border-color: transparent;
+}
+.arrowRight {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.arrowRight img{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
